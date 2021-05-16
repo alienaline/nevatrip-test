@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Неватрип</title>
+</head>
+<body>
+    <section class="body">
+        <div class="card">
+            <div class="card_photo-text">
+                <p class="photo-text">Новинка</p>
+            </div>
+            <div class="card_photo">
+                <figure class="card_photo-container">
+                    <img src="img/kzn.jpg" alt="Фото Казанского собора">
+                </figure>
+            </div>
+            <div class="card_description">
+                <span class="card_duration">
+                    <img class="time-icon" src="img/clock.png" alt="Иконка часов">
+                    <p class="duration-time">2 часа</p>
+                </span>
+                <span class="card_promo">
+                    <p class="promo-text">АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019</p>
+                </span>
+                <span class="card_duration-desktop">
+                    <img class="time-icon" src="img/clock.png" alt="Иконка часов">
+                    <p class="duration-time">2 часа</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Билет на целый день</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Неограниченное число катаний</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">6 остановок у главных достопримечательностей</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Ближайший рейс сегодня:</p>
+                </span>
+                <div class="departure-time">
+                    <button class="departure-time_button" type="button">
+                        8:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        10:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        12:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        14:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        16:00
+                    </button>
+                    <span class="more">
+                        <button class="departure-time_button" type="button">
+                            18:00
+                        </button>
+                        <button class="departure-time_button" type="button">
+                            20:00
+                        </button>
+                        <button class="departure-time_button" type="button">
+                            22:00
+                        </button>
+                        <button class="departure-time_button" type="button">
+                            00:00
+                        </button>
+                       </span>
+                    <button class="departure-time_button more-btn" type="button" onclick="readMore()">
+                        Показать еще...
+                    </button>
+                </div>
+                <div class="card_cost">
+                    <div class="сost">
+                        <p class="cost-main">900 ₽</p>
+                    </div>
+                    <div class="card_details">
+                        <button class="details-button details-button-cube">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_photo-text card_photo-text-blue">
+                <p class="photo-text">Новинка</p>
+            </div>
+            <div class="card_photo">
+                <figure class="card_photo-container">
+                    <img class="photo" src="img/spas.jpg" alt="Фото собора Спас на Крови">
+                </figure>
+            </div>
+            <div class="card_description">
+                <span class="card_duration">
+                    <img class="time-icon" src="img/clock.png" alt="Иконка часов">
+                    <p class="duration-time">2 часа</p>
+                </span>
+                <span class="card_promo">
+                    <p class="promo-text">АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019</p>
+                </span>
+                <span class="card_duration-desktop">
+                    <img class="time-icon" src="img/clock.png" alt="Иконка часов">
+                    <p class="duration-time">2 часа</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Билет на целый день</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Неограниченное число катаний</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">6 остановок у главных достопримечательностей</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Ближайший рейс сегодня:</p>
+                </span>
+                <div class="departure-time">
+                    <button class="departure-time_button" type="button">
+                        15:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        17:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        19:00
+                    </button>
+                </div>
+                <div class="card_cost">
+                    <div class="сost">
+                        <p class="cost-main">1900 ₽</p>
+                        <p class="cost-note">2500р. на причале</p>
+                    </div>
+                    <div class="card_details">
+                        <button class="details-button">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_photo-text card_photo-text-red">
+                <p class="photo-text ">Круглый год</p>
+            </div>
+            <div class="card_photo">
+                <figure class="card_photo-container">
+                    <img class="photo" src="img/isak.png" alt="Фото c Исаакиевского собора">
+                </figure>
+            </div>
+            <div class="card_description">
+                <span class="card_duration">
+                    <img class="time-icon" src="img/clock.png" alt="Иконка часов">
+                    <p class="duration-time">2 часа</p>
+                </span>
+                <span class="card_promo">
+                    <p class="promo-text">Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2020</p>
+                </span>
+                <span class="card_duration-desktop">
+                    <img class="time-icon" src="img/clock.png" alt="Иконка часов">
+                    <p class="duration-time">2 часа</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Билет на целый день</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Неограниченное число катаний</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">6 остановок у главных достопримечательностей</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Ближайший рейс сегодня:</p>
+                </span>
+                <div class="departure-time">
+                    <button class="departure-time_button" type="button">
+                        15:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        17:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        19:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        21:00
+                    </button>
+                </div>
+                <div class="card_cost">
+                    <div class="сost">
+                        <p class="cost-main">900 ₽</p>
+                        <p class="cost-note">1300р. на причале</p>
+                    </div>
+                    <div class="card_details">
+                        <button class="details-button">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card_photo-text card_photo-text-blue">
+                <p class="photo-text">Новинка</p>
+            </div>
+            <div class="card_photo">
+                <figure class="card_photo-container">
+                    <img class="photo" src="img/most.jpg" alt="Фото разведенных мостов">
+                </figure>
+            </div>
+            <div class="card_description">
+                <span class="card_duration">
+                    <img class="time-icon" src="img/clock.png" alt="Иконка часов">
+                    <p class="duration-time">2 часа</p>
+                </span>
+                <span class="card_promo">
+                    <p class="promo-text">АКЦИЯ - Обзорная экскурсия по рекам и каналам с остановками Hop on Hop Off 2019</p>
+                </span>
+                <span class="card_duration-desktop">
+                    <img class="time-icon" src="img/clock.png" alt="Иконка часов">
+                    <p class="duration-time">2 часа</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Билет на целый день</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Неограниченное число катаний</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">6 остановок у главных достопримечательностей</p>
+                </span>
+                <span class="card_option">
+                    <img class="check-mark" src="img/check-mark.png" alt="Иконка галочка">
+                    <p class="option-text">Ближайший рейс сегодня:</p>
+                </span>
+                <div class="departure-time">
+                    <button class="departure-time_button" type="button">
+                        15:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        17:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        19:00
+                    </button>
+                    <button class="departure-time_button" type="button">
+                        21:00
+                    </button>
+                </div>
+                <div class="card_cost">
+                    <div class="сost">
+                        <p class="cost-main">1900 ₽</p>
+                        <p class="cost-note">2500р. на причале</p>
+                    </div>
+                    <div class="card_details">
+                        <button class="details-button">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script/script.js"></script>
+</body>
+</html>
